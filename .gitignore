@@ -1,0 +1,20 @@
+# Sistem umum
+/vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# Konfigurasi environment
+.env
+.env.local
+.env.*.local
+
+# Cache & logs
+*.log
+tmp/
+cache/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
