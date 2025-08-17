@@ -18,3 +18,23 @@ logs/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHPUnit / Testing
+phpunit.xml
+phpunit.xml.dist
+coverage/
+
+# Uploaded files (kalau ada folder upload user)
+uploads/
